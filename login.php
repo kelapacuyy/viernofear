@@ -9,7 +9,7 @@ if( isset($_SESSION["login"]) ){
 include('config.php');
 
 if( isset($_POST['akun']) ){
-  header("Location: register.php");
+  header("Location: registrasi.php");
 }
 
 //cek apakah tombol login sudah diklik
