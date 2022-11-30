@@ -2,7 +2,7 @@
 session_start();
 
 if( isset($_SESSION["login"]) ){
-    header("Location: index.php");
+    header("Location: homepage.php");
     exit;
 }
 
@@ -20,7 +20,7 @@ if( isset($_POST["login"]) ){
     $password = $_POST['password'];
 
     //buat query
-    $result = mysqli_query($koneksi, "SELECT * FROM anak_kost WHERE username = '$username'");
+    $result = mysqli_query($dbcatering, "SELECT * FROM anak_kost WHERE username = '$username'");
 
     //cek uname apakah terdaftar
     if( mysqli_num_rows($result) === 1 ){
@@ -31,7 +31,7 @@ if( isset($_POST["login"]) ){
             $_SESSION["user"] = $row;
             $_SESSION["login"] = true;
 
-            header("Location: index.php");
+            header("Location: homepage.php");
 
             exit; //keluar fungsi if
         }
