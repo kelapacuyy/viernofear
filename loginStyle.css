@@ -1,0 +1,83 @@
+html,
+body {
+  height: 100%;
+  background-color: #fecea8 !important;
+}
+
+.global-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a1c28;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100%;
+}
+
+.login-form {
+  width: 350px;
+  height: 450px;
+  padding: 20px;
+  background-color: #fecea8 !important;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: none;
+}
+
+input[type="email"],
+input[type="password"] {
+  background-color: #ff847c;
+  color: #2a363b;
+  border: 2px solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-weight: 800;
+  font-size: 20cm;
+  padding-top: 10px;
+}
+
+.btn {
+  background: #2a363b !important;
+  color: #fecea8;
+  transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+  font-size: 14px;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+  border: none;
+}
+
+.akun {
+  text-decoration: none;
+  color: #fecea8;
+}
+
+.akun:hover {
+  color: #ff847c;
+}
