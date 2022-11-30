@@ -10,7 +10,7 @@ include('config.php');
 
 //ambil data user
 $username = $_SESSION['user']['username'];
-$query = mysqli_query($koneksi, "SELECT * FROM anak_kost WHERE username = '$username'");
+$query = mysqli_query($dbcatering, "SELECT * FROM anak_kost WHERE username = '$username'");
 $row = mysqli_fetch_assoc($query);
 
 
