@@ -80,3 +80,7 @@ body {
 .akun:hover {
   color: #fecea8;
 }
+
+::placeholder{
+  color: #ffff
+}
