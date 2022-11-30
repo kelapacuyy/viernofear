@@ -13,7 +13,7 @@ Anggota:
 3. G6401211089 Annisa Nur Rahmadhani
 
 Deskripsi Singkat Aplikasi:
-Menu Inventor merupakan sebuah aplikasi berbasis mobile yang berguna untuk menampung semua temuan/ide resep dari orang-orang. Aplikasi ini membantu orang-orang agar tidak melupakan resep yang telah dibuat sekaligus menjadi buku menu yang sewaktu-waktu bisa dibuka kapan saja sehingga orang-orang tidak perlu bingung dalam memikirkan menu makanan ketika ingin memasak. Selain itu, menu-menu tersebut akan diverifikasi nilai gizinya oleh ahli nutrisi.
+DapurKost merupakan sebuah aplikasi berbasis web yang dapat membantu target user, yaitu anak-anak kost, untuk mendapatkan informasi dan pemesanan dari sebuah layanan  catering berlangganan. 
 
 User Analysis:
-Target dari aplikasi ini adalah anak-anak kos yang dalam sehari-harinya kerap kali melakukan kegiatan memasak. Banyaknya pilihan menu dan keterbatasan bahan terkadang membuat anak-anak kos merasa bingung untuk mengolah suatu hidangan, terlebih lagi hidangan yang sehat namun juga mudah dibuat. Aplikasi ini bertujuan untuk menambah dan juga membagikan referensi menu kepada anak kos lain sekaligus memberikan menu yang sehat untuk mendukung pola hidup yang sehat bagi anak kos.
+Target dari aplikasi ini adalah anak-anak kos/mahasiswa/manusia sibuk yang dalam sehari-harinya sangat sibuk menghadapi dunia perkuliahan, menghadapi UAS, kuis, tugas, projek, organisasi, lomba, dan sebagainya, sehingga tidak sempat memikirkan rencana makanan yang rutin, sehat, dan terjamin. Dengan adanya aplikasi web ini, diharapkan dapat menghubungkan para jasa catering dengan target pelanggannya demi meningkatkan tingkat perekonomian Indonesia serta mendukung gaya hidup yang sehat untuk menjalani aktivitas yang luar biasa di luar nalar bagi sobat sibuk.
