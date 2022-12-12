@@ -47,13 +47,13 @@ $row = mysqli_fetch_assoc($query);
                         More
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="profile.php">Profil</a></li>
+                        <li><a class="dropdown-item" href="profil.php">Profil</a></li>
                         <li><a class="dropdown-item" href="berlangganan.php">Riwayat Langganan</a></li>
                     </ul>
                     </li>
                 </ul>
                 <ul class="d-flex">
-                    <a class="profile" style="padding-top: 7px;" href="profile.php">
+                    <a class="profile" style="padding-top: 7px;" href="profil.php">
                         <img src="assets/iconprofile.png" alt="profilelogo"/>
                     </a>
                     <a class="nav-link m-2"> Hi, <?= $row['nama']?></a>
