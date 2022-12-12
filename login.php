@@ -59,7 +59,7 @@ if( isset($_POST["login"]) ){
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
         crossorigin="anonymous"
     />
-    <link href="loginStyle.css" rel="stylesheet" />
+    <link href="css/loginStyle.css" rel="stylesheet" />
     </head>
     <body>
     <div class="container1">
