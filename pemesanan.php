@@ -27,7 +27,7 @@ if( isset($_POST['pesan']) ){
     //cek jika query berhasil
     if( $result == TRUE ){
         echo "<script>alert('Pemesanan berhasil dibuat!');
-                document.location.href ='daftarpesanan.php'</script>";
+                document.location.href ='daftarlangganan.php'</script>";
     }
 
 
