@@ -53,7 +53,7 @@ if( isset($_POST['edit']) ){
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="profile.php">Profil</a></li>
-                        <li><a class="dropdown-item" href="daftarpesanan.php">Riwayat Pemesanan</a></li>
+                        <li><a class="dropdown-item" href="daftarlangganan.php">Daftar Pesanan</a></li>
                     </ul>
                     </li>
                 </ul>
