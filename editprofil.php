@@ -89,7 +89,7 @@ if( isset($_POST['update']) ){
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="profil.php">Profil</a></li>
-                        <li><a class="dropdown-item" href="daftarpesanan.php">Riwayat Konsultasi</a></li>
+                        <li><a class="dropdown-item" href="daftarlangganan.php">Daftar Pesanan</a></li>
                     </ul>
                     </li>
                 </ul>
