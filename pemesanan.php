@@ -83,7 +83,7 @@ if( isset($_POST['pesan']) ){
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="profil.php">Profil</a></li>
-                        <li><a class="dropdown-item" href="daftarpesanan.php">Riwayat Pemesanan</a></li>
+                        <li><a class="dropdown-item" href="daftarlangganan.php">Daftar Pesanan</a></li>
                     </ul>
                     </li>
                 </ul>
