@@ -29,7 +29,7 @@ $row = mysqli_fetch_assoc($query);
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg bg-light sticky-top">
             <div class="container-fluid">
-                <img src="#" class="img-fluid text-center" width="50px" height="50px" alt="logo">
+                <img src="assets/Dapurkost.png" class="img-fluid text-center" width="50px" height="50px" alt="logo">
                 <a class="navbar-brand" href="#">DapurKost</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,7 +57,7 @@ $row = mysqli_fetch_assoc($query);
                         <img src="assets/iconprofile.png" alt="profilelogo"/>
                     </a>
                     <a class="nav-link m-2"> Hi, <?= $row['nama']?></a>
-                    <button class="btn btn-outline-warning" style="border-radius: 15px;" type="submit" ><a href="logout.php" class="logout">Log Out</a></button>
+                    <button class="logout_btn" style="border-radius: 15px;" type="submit" ><a href="logout.php" class="logout">Log Out</a></button>
                 </ul>
                 </div>
             </div>
@@ -103,32 +103,32 @@ $row = mysqli_fetch_assoc($query);
                 <div class="container2 text-center">
                     <div class="layanancard">
                         <div class="col">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 19rem;">
                                 <img src="assets/layanan1.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Menerima Langganan</h5>
                                     <p class="card-text">Solusi yang tepat untuk Anda yang memiliki permasalahan menu dan waktu makan. Kami siap menyediakan makanan yang bergizi dan diantar tepat waktu ke tempat Anda. </p>
-                                    <a href="pemesanan.php" class="btn btn-outline-warning">Pesan</a>
+                                    <a href="pemesanan.php" class="btn">Pesan</a>
                                 </div>
                                 </div>
                         </div>
                         <div class="col">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 19rem;">
                                 <img src="assets/layanan2.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Menyediakan Catering untuk Acara Anda</h5>
                                     <p class="card-text">Kami siap menyediakan makanan untuk Anda dan para tamu sepanjang acara, jangan khawatir!.</p>
-                                    <a href="pemesanan.php" class="btn btn-outline-warning">Pesan</a>
+                                    <a href="pemesanan.php" class="btn">Pesan</a>
                                 </div>
                                 </div>
                         </div>
                         <div class="col">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 19rem;">
                                 <img src="assets/layanan3.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Bebas Memilih</h5>
                                     <p class="card-text">Kami membebaskan Anda dalam memilih menu makanan setiap harinya, Anda dapat memilih menu dalam bentuk paket atau memilih menu sendiri, beberapa toko catering kami menyediakan keduanya!</p>
-                                    <a href="pemesanan.php" class="btn btn-outline-warning">Pesan</a>
+                                    <a href="pemesanan.php" class="btn">Pesan</a>
                                 </div>
                                 </div>    
                         </div>
